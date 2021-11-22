@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.newdonneur">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="600.0" layoutY="-1.0" opacity="0.52" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/don-de-sang.jpg" />
+         </image>
+      </ImageView>
+      <TextField fx:id="prenom" layoutX="54.0" layoutY="126.0" prefHeight="31.0" prefWidth="225.0" promptText="Prénom :" styleClass="text" stylesheets="@../css/btn.css">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </TextField>
+      <TextField id="text" fx:id="tel" layoutX="54.0" layoutY="185.0" prefHeight="31.0" prefWidth="225.0" promptText="NUM_Tel" style="-fx-border-radius: 10;" styleClass="text" stylesheets="@../css/btn.css">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="nom" layoutX="54.0" layoutY="61.0" prefHeight="31.0" prefWidth="225.0" promptText="Nom :" styleClass="text" stylesheets="@../css/btn.css">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </TextField>
+      <Button fx:id="add" layoutX="153.0" layoutY="330.0" mnemonicParsing="false" onAction="#addonneur" prefHeight="36.0" prefWidth="295.0" styleClass="btn" stylesheets="@../css/btn.css" text="Ajouter" textFill="#fffefe">
+         <graphic>
+            <ImageView fitHeight="26.0" fitWidth="48.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../image/icons8_add_96px.png" />
+               </image>
+            </ImageView>
+         </graphic>
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <ChoiceBox fx:id="grpsn" layoutX="54.0" layoutY="238.0" prefHeight="31.0" prefWidth="225.0" />
+      <TextField fx:id="email" layoutX="311.0" layoutY="126.0" prefHeight="31.0" prefWidth="225.0" promptText="Email" styleClass="text" stylesheets="@../css/btn.css">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </TextField>
+      <TextField id="text" fx:id="password" layoutX="311.0" layoutY="185.0" prefHeight="31.0" prefWidth="225.0" promptText="Password" style="-fx-border-radius: 10;" styleClass="text" stylesheets="@../css/btn.css">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="adresse" layoutX="311.0" layoutY="61.0" prefHeight="31.0" prefWidth="225.0" promptText="Adresse" styleClass="text" stylesheets="@../css/btn.css">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </TextField>
+      <ChoiceBox fx:id="gendre" layoutX="311.0" layoutY="238.0" prefHeight="31.0" prefWidth="225.0" />
+      <TextField id="text" fx:id="age" layoutX="177.0" layoutY="286.0" prefHeight="31.0" prefWidth="225.0" promptText="Age" style="-fx-border-radius: 10;" styleClass="text" stylesheets="@../css/btn.css">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </TextField>
+   </children>
+</AnchorPane>

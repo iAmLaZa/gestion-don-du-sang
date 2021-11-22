@@ -1,0 +1,39 @@
+.btn{
+    -fx-background-color:    #B22222;
+    -fx-background-radius: 30px;
+}
+.btn:hover{
+     -fx-background-color:  #6B9BA4;
+ }
+
+ .btnacc{
+     -fx-background-color:    #B22222;
+
+ }
+ .btnacc:hover{
+      -fx-background-color:  #6B9BA4;
+  }
+ .btnmen{
+     -fx-background-color:   white;
+     -fx-background-radius: 30px;
+ }
+ .btnmen:hover{
+ 
+      -fx-background-color: #B4BDE5;
+  }
+
+ .text{
+  -fx-background-radius: 30px;
+
+ }
+ .label{
+ -fx-text-fill: #B22222;
+ -fx-border-radius:30px;
+-fx-border-color:  #B22222;
+
+}
+.anchor{
+
+-fx-border-color:  #B22222;
+}
+
